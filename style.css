@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Tulpen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    font-size: 181%;
+    font-family: 'Tulpen One', cursive;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 78px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+
+.brand img {
+    width: 104px;
+    padding: 0 6px;
+}
+
+.container {
+    display: flex;
+    min-height: 70vh;
+    background-color: wheat;
+    color: black;
+    font-family: 'Qwitcher Grypen', cursive;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background: url(img/bg.jpg) no-repeat center fixed;
+    /* background-size: cover; */
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItems {
+    height: 54px;
+    display: flex;
+    background-color: white;
+    margin: 41px 18px;
+    width: 102%;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+    padding-right: 12px;
+}
+
+.songItems img {
+    width: 70px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+
+.songItems span {
+    font-size: 163%;
+}
+
+.songList h1 {
+    margin: 23px 23px;
+}
+
+.songlistPlay i {
+    /* padding-left: 17px 9px; */
+    padding-right: 21px;
+}
+
+.songlistPlay span {
+    padding: 5px 22px;
+    font-size: 200%;
+}
+.songlistPlay i{
+    cursor: pointer;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songInfo{
+    opacity: 1;
+    color: black;
+    transition: opacity 0.81s ease-in;
+    left :10vw; 
+    font-family: 'Tulpen One', cursive;
+    position: absolute;
+}
